@@ -3,25 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animación</title>
+    <title>Portafolio</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="https://cdn-icons.flaticon.com/png/512/3518/premium/3518229.png?token=exp=1638748960~hmac=4c9393f30033c8725661da5f13c63ea5">
 </head>
 <body>
     
     <header class="header" id="inicio">
-        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+        <img class="hamburguer" src="img/burger_menu.png" alt="">
         <nav class="menu-navegacion">
                 <a href="#inicio">Inicio</a>
-                <a href="#servicio">Servcio</a>
-                <a href="#galeria">Portafolio</a>
-                <a href="#expertos">Servicios</a>
+                <a href="#servicio">Servicios</a>
+                <a href="#galeria">Galería</a>
+                <a href="#expertos">Conocimientos</a>
                 <a href="#footer">Contacto</a>
         </nav>
+
         <div class="contenedor head">
-            <h1 class="titulo">Convertimos tus ideas en una realidad</h1>
-            <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <div class="titulo-cont">
+                <h1 class="titulo">Juan Diego Arteaga</h1>
+                <p class="copy">Desarrollador en proceso de aprendizaje</p>
+            </div>
+            
         </div>
         
     </header>
@@ -29,18 +33,18 @@
         <section class="services contenedor" id="servicio">
             <h2 class="subtitulo">Nuestro servicio</h2>
             <div class="contenedor-servicio">
-                <img src="img/checklist.svg" alt="">
+                <img src="img/servicios.png">
                 <div class="checklist-servicio">
                     <div class="service">
                         <h3 class="n-service"><span class="number">1</span>Diseño web</h3>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab autem enim illum dolorum nisi. Aspernatur.</p>
                     </div>
                     <div class="service">
-                        <h3 class="n-service"><span class="number">2</span>Diseño web</h3>
+                        <h3 class="n-service"><span class="number">2</span>Desarrollo BackEnd</h3>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab autem enim illum dolorum nisi. Aspernatur.</p>
                     </div>
                     <div class="service">
-                        <h3 class="n-service"><span class="number">3</span>Diseño web</h3>
+                        <h3 class="n-service"><span class="number">3</span>Buenas prácticas</h3>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab autem enim illum dolorum nisi. Aspernatur.</p>
                     </div>
                 </div>
@@ -48,9 +52,9 @@
         </section>
         <section class="gallery" id="galeria">
             <div class="contenedor">
-                <h2 class="subtitulo">Galeria</h2>
+                <h2 class="subtitulo">Galería</h2>
                 <div class="contenedor-galeria">
-                    <img src="img/uno.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/uno.jpg" class="img-galeria" alt="">
                     <img src="img/dos.jpg" class="img-galeria" alt="">
                     <img src="img/tres.jpg" class="img-galeria" alt="">
                     <img src="img/cuatro.jpg" class="img-galeria" alt="">
@@ -64,19 +68,19 @@
             <img src="" alt="" class="agregar-imagen">
         </div>
         <section class="contenedor" id="expertos">
-            <h2 class="subtitulo">Expertos en:</h2>
+            <h2 class="subtitulo">Conocimientos</h2>
             <section class="experts">
                 <div class="cont-expert">
-                    <img src="img/pie_chart.svg" alt="">
-                    <h3 class="n-expert">Analytics</h3>
+                    <img src="img/angular.png" alt="">
+                    <h3 class="n-expert">Angular</h3>
                 </div>
                 <div class="cont-expert">
-                    <img src="img/search_engine.svg" alt="">
-                    <h3 class="n-expert">SEO</h3>
+                    <img src="img/java.png" alt="">
+                    <h3 class="n-expert">Java</h3>
                 </div>
                 <div class="cont-expert">
-                    <img src="img/security.svg" alt="">
-                    <h3 class="n-expert">Security</h3>
+                    <img src="img/python.png" alt="">
+                    <h3 class="n-expert">Python</h3>
                 </div>
             </section>
         </section>
@@ -85,19 +89,20 @@
     <footer id="footer">
         <div class="contenedor footer-content">
                 <div class="contact-us">
-                    <h2 class="brand">AlexCG Design</h2>
-                    <p>Somos expertos en la creación de tus sueños</p>
+                    <h2 class="brand">Juan Diego Arteaga</h2>
+                    <p>Aspirante a desarrollador FullStack</p>
                 </div>
-                <div class="social-media">
-                    <a href="./" class="social-media-icon">
-                        <i class='bx bxl-facebook'></i>
-                    </a>
-                    <a href="./" class="social-media-icon">
-                        <i class='bx bxl-twitter' ></i>
-                    </a>
-                    <a href="./" class="social-media-icon">
-                        <i class='bx bxl-instagram' ></i>
-                    </a>
+                <div class="redes-cont">
+                    <div class="redes">
+                        <a target="_blank" href="https://www.instagram.com/juandi.jpg/">
+                            <img src="img/ig.png" alt="">
+                        </a>
+                    </div>
+                    <div class="redes">
+                        <a target="_blank" href="https://www.linkedin.com/in/juan-diego-arteaga-perez-1a3269212/">
+                            <img src="img/linkedin.png" alt="">
+                        </a>
+                    </div>
                 </div>
         </div>
         <div class="line"></div>
